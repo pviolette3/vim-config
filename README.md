@@ -1,4 +1,4 @@
-Brian Gardner's vim config
+Patrick Violette's vim config
 ==========================
 
 Installation
