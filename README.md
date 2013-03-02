@@ -3,8 +3,12 @@ Patrick Violette's vim config
 
 Installation
 ------------
-Run the install shell script:
-(maybe) chmod +x install.sh
+Clone this repository, change the working directory to vim-config, and then run the install shell script:
+```
 bash install.sh
+```
 
-Then run :BundleInstall from vim
+This script copies configuration files and sets up Vundle automatically.
+
+NOTE: The script does a fresh install, so it WILL delete the entire .vim
+directory of the user.
