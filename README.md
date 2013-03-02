@@ -3,8 +3,8 @@ Patrick Violette's vim config
 
 Installation
 ------------
+Run the install shell script:
+(maybe) chmod +x install.sh
+bash install.sh
 
-All of the configuration files are held in the ~/.vim folder.
-A symbolic link is used so vim can find the ~/.vimrc file.
-    
-    $ ln -s ~/.vim/vimrc ~/.vimrc
+Then run :BundleInstall from vim
