@@ -11,4 +11,4 @@ bash install.sh
 This script copies configuration files and sets up Vundle automatically.
 
 NOTE: The script does a fresh install, so it WILL delete the entire .vim
-directory of the user.
+directory and .vimrc.

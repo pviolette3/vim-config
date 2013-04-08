@@ -1,31 +1,33 @@
 set nocompatible
+
 filetype off  " required by vundle
 
 set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
+Bundle 'flazz/vim-colorschemes'
+Bundle "myusuf3/numbers.vim"
+Bundle "Lokaltog/powerline"
 
-" File Navigation
-Bundle "scrooloose/nerdtree.git"
-Bundle "git://git.wincent.com/command-t.git"
-Bundle "mileszs/ack.vim"
+" snipmate
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "honza/snipmate-snippets"
+Bundle "garbas/vim-snipmate"
 
-" Window looks
-Bundle "bgardner7/vim-irblack"
-Bundle "nathanaelkane/vim-indent-guides"
-Bundle "Lokaltog/vim-powerline"
-Bundle "altercation/vim-colors-solarized"
-Bundle "molokai"
-Bundle "chriskempson/base16-vim"
+" FuzzyFinder
+Bundle "vim-scripts/L9"
+Bundle "vim-scripts/FuzzyFinder"
 
-" Miscellaneous
-Bundle "jeffkreeftmeijer/vim-numbertoggle"
-Bundle "tpope/vim-fugitive"
-Bundle "tpope/vim-rails"
+Bundle "vim-scripts/AutoClose"
+Bundle "tpope/vim-surround"
 
-Bundle "The-NERD-Commenter"
+Bundle "ervandew/supertab"
 
-"Bundle "VimClojure"
+Bundle "airblade/vim-gitgutter"
+Bundle "wincent/Command-T" 
+
+Bundle "ralph/go.vim"
 
 filetype plugin indent on  " required by vundle
