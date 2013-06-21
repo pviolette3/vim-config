@@ -1,4 +1,4 @@
-colorscheme candy
+colorscheme github
 set expandtab
 set tabstop=2
 set shiftwidth=2
