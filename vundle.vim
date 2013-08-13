@@ -6,30 +6,27 @@ set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
+
+" Aesthetics
 Bundle 'flazz/vim-colorschemes'
+
+" General editing
 Bundle 'myusuf3/numbers.vim'
 Bundle 'Lokaltog/powerline'
-
-" snipmate
-"Bundle 'MarcWeber/vim-addon-mw-utils'
-"Bundle 'tomtom/tlib_vim'
-"Bundle 'honza/snipmate-snippets'
-"Bundle 'garbas/vim-snipmate'
-
-" FuzzyFinder
-"Bundle 'vim-scripts/L9'
-"Bundle 'vim-scripts/FuzzyFinder'
-
+Bundle 'airblade/vim-gitgutter'
 Bundle 'vim-scripts/AutoClose'
 Bundle 'tpope/vim-surround'
+Bundle 'scrooloose/syntastic'
+Bundle 'scrooloose/nerdtree'
+Bundle 'vim-scripts/taglist.vim'
 
+" Autocomplete
 Bundle 'ervandew/supertab'
+Bundle 'vim-scripts/snipMate'
 
-Bundle 'airblade/vim-gitgutter'
-"Bundle 'wincent/Command-T'
-
-Bundle 'ralph/go.vim'
+" Languages
 Bundle 'pangloss/vim-javascript'
 Bundle 'briancollins/vim-jst'
+Bundle 'ralph/go.vim'
 
 filetype plugin indent on  " required by vundle
