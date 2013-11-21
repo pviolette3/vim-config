@@ -33,5 +33,6 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'briancollins/vim-jst'
 Bundle 'ralph/go.vim'
 Bundle 'motus/pig.vim'
+Bundle 'digitaltoad/vim-jade'
 
 filetype plugin indent on  " required by vundle
