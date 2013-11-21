@@ -8,6 +8,7 @@ set autoindent
 set t_Co=256
 "set foldmethod=syntax
 
+let g:ycm_key_list_select_completion = ['<TAB>', '<Down>', '<Enter>']
 map <Leader>w :shell<Enter>
 map <Leader>b :tabprevious<Enter>
 map <Leader>n :tabnext<Enter>
