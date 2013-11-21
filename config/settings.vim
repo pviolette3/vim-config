@@ -1,6 +1,8 @@
 syntax enable
 let g:solarized_termcolors=256
+set number
 colorscheme solarized
+set backspace=indent,eol,start
 set expandtab
 set tabstop=2
 set shiftwidth=2
@@ -8,6 +10,7 @@ set autoindent
 set t_Co=256
 "set foldmethod=syntax
 
+let g:ycm_key_list_select_completion = ['<TAB>', '<Down>', '<Enter>']
 map <Leader>w :shell<Enter>
 map <Leader>b :tabprevious<Enter>
 map <Leader>n :tabnext<Enter>
