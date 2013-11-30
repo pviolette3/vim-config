@@ -1,7 +1,8 @@
 syntax enable
 let g:solarized_termcolors=256
-set number
 colorscheme solarized
+"colorscheme molokai
+set number
 set backspace=indent,eol,start
 set expandtab
 set tabstop=2

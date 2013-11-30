@@ -20,11 +20,15 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
 Bundle 'benmills/vimux'
 Bundle 'vim-scripts/closetag.vim'
+Bundle 'vim-scripts/molokai'
+Bundle 'vim-scripts/taglist.vim'
 
 
 " Awesomeness
 Bundle 'christoomey/vim-tmux-navigator'
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
+Bundle 'ervandew/supertab'
+Bundle 'vim-scripts/AutoComplPop'
 
 " Languages
 Bundle 'pangloss/vim-javascript'
