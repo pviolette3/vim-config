@@ -5,8 +5,8 @@ colorscheme solarized
 set number
 set backspace=indent,eol,start
 set expandtab
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set autoindent
 set t_Co=256
 "set foldmethod=syntax
@@ -45,3 +45,9 @@ else
   map <C-k> <C-w>k
   map <C-l> <C-w>l
 endif
+
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
+
+let g:ycm_confirm_extra_conf = 0

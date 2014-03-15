@@ -22,13 +22,14 @@ Bundle 'benmills/vimux'
 Bundle 'vim-scripts/closetag.vim'
 Bundle 'vim-scripts/molokai'
 Bundle 'vim-scripts/taglist.vim'
-
+Bundle 'SirVer/ultisnips'
+Bundle 'tpope/vim-fugitive'
 
 " Awesomeness
 Bundle 'christoomey/vim-tmux-navigator'
-"Bundle 'Valloric/YouCompleteMe'
-Bundle 'ervandew/supertab'
-Bundle 'vim-scripts/AutoComplPop'
+Bundle 'Valloric/YouCompleteMe'
+"Bundle 'ervandew/supertab'
+"Bundle 'vim-scripts/AutoComplPop'
 
 " Languages
 Bundle 'pangloss/vim-javascript'
@@ -37,5 +38,8 @@ Bundle 'ralph/go.vim'
 Bundle 'motus/pig.vim'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'vim-scripts/node'
+Bundle 'marijnh/tern_for_vim'
+Bundle 'groenewege/vim-less'
+Bundle 'derekwyatt/vim-scala'
 
 filetype plugin indent on  " required by vundle
